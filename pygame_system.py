@@ -14,6 +14,7 @@ def main():
     enn = pg.Surface((20, 20))
     pg.draw.circle(enn, (255, 0, 0), (10, 10), 10)
     enn.set_colorkey((0, 0, 0))
+    
 
     tmr = 0
     while True:
@@ -27,6 +28,7 @@ def main():
         pg.display.update()
         tmr += 1        
         clock.tick(100)
+        
 
 
 if __name__ == "__main__":
