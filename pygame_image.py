@@ -41,6 +41,7 @@ def main():
             hensuyoko+=2
         else:
             hensuyoko-=1
+            
 
         
 
